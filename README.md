@@ -1,32 +1,26 @@
-# NODE-API
+# CRUD API Project
 
-# CRUD API Project using Express.js and MongoDB
-
-This project is a simple example of a CRUD (Create, Read, Update, Delete) API built using Express.js and MongoDB. It allows you to manage products with basic information like name, quantity, price, and an optional image.
+This is a simple CRUD (Create, Read, Update, Delete) API project built using Node.js, Express.js, and MongoDB. It allows you to perform basic operations on products such as creating, reading, updating, and deleting products.
 
 ## Table of Contents
-
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
 - [Usage](#usage)
-  - [Endpoints](#endpoints)
-  - [Example Requests](#example-requests)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
+- [Endpoints](#endpoints)
+- [Example Requests](#example-requests)
 - [License](#license)
 
-## Getting Started
+## Prerequisites
 
-### Prerequisites
+Before you begin, ensure you have met the following requirements:
+- Node.js installed on your machine.
+- MongoDB installed and running.
+- A code editor of your choice (e.g., Visual Studio Code).
+- Git installed for cloning the repository.
 
-Before running this project, ensure you have the following prerequisites:
+## Installation
 
-- Node.js: Make sure you have Node.js installed. You can download it [here](https://nodejs.org/).
-
-### Installation
-
-1. Clone this repository:
+1. Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/express-mongodb-crud.git
+   git clone https://github.com/your-username/your-repo-name.git

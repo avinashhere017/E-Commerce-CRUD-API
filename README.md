@@ -20,7 +20,33 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-1. Clone this repository to your local machine using the following command:
+1. Clone this repository to your local machine:
 
-   ```bash
-   git clone https://github.com/avinashhere017/NODE-API.git
+    ```bash
+    git clone https://github.com/avinashhere017/NODE-API.git
+    ```
+
+2. Change into the project directory:
+
+    ```bash
+    cd NODE-API
+    ```
+
+3. Install the project dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Create a `.env` file in the project root and add your MongoDB connection string:
+
+    ```env
+    MONGODB_URI=mongodb://username:password@your-mongodb-host/your-database-name
+    ```
+
+## Usage
+
+To run the application, execute the following command:
+
+```bash
+npm start
